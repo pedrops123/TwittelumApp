@@ -16,12 +16,12 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.Toast
 import com.example.android8338.twittelumapp.extensions.decodificaParaBase64
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_lista.*
 import java.io.File
 
 
 
-class MainActivity : AppCompatActivity() {
+class ListaActivity : AppCompatActivity() {
 
 
     private var LocalFoto:String? = null;
@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_lista)
 
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)

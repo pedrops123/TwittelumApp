@@ -11,4 +11,13 @@ class TweetViewModel(private val repository: TweetRepository):ViewModel() {
 
     fun deleta (tweet:Tweet) = repository.deleta(tweet)
 
+    fun tweets():List<Tweet> = listOf(
+        Tweet("bla",null),
+        Tweet("ble",null),
+        Tweet("bli",null),
+        Tweet("blo",null),
+        Tweet("blu",null)
+
+    )
+
 }

@@ -20,7 +20,7 @@
             android:src="@mipmap/comentario_icon"
             android:backgroundTint="@android:color/secondary_text_dark_nodisable"
             app:rippleColor="@android:color/secondary_text_dark_nodisable"
-            app:backgroundTint="@android:color/darker_gray"/>
+           />
 
 
 

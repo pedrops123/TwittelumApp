@@ -10,9 +10,9 @@
             android:roundIcon="@mipmap/icone_principal"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"/>
 
-        <activity android:name=".TweetsActivity">
+
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -20,6 +20,8 @@
             </intent-filter>
 
         </activity>
+
+        <activity android:name=".ListaActivity"/>
 
         <provider
                 android:authorities="MeuProvider"
@@ -31,9 +33,6 @@
                         android:resource="@xml/provider_paths"/>
 
         </provider>
-
-
-
 
     </application>
 

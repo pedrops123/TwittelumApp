@@ -97,7 +97,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/opt/android-studio/plugins/android/lib/android.jar!/images/material_design_icons/social/ic_person_black_24dp.xml" />
+                                      <entry key="url" value="jar:file:/opt/android-studio/plugins/android/lib/android.jar!/images/material_design_icons/image/ic_camera_alt_black_24dp.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -107,7 +107,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_person" />
+                            <entry key="outputName" value="camera" />
                             <entry key="sourceFile" value="$USER_HOME$" />
                           </map>
                         </option>
